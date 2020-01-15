@@ -143,6 +143,7 @@ header{
     background-repeat:no-repeat;
     background-size:180px auto;
     padding: 20px 210px 10px 460px;
+    background-attachment:fixed;
 }
 
 .body-theme{
