@@ -478,7 +478,7 @@ ul.list-sections > li > a{
      .table{ width:100%; }
      .content-box-content-title > small{display:block;}
      .content-box-content-main{padding:10px 0;}
-     .main-topic-link{ float:none;}
+     .main-topic-link{ float:none;display:block;margin:0 auto;}
      h1.top-header{font-size:4.2em;margin-bottom:0;}
      h3.top-header{font-size:2.2em}
     .text-lg{font-size:1.2em;}
