@@ -479,8 +479,8 @@ ul.list-sections > li > a{
      .content-box-content-title > small{display:block;}
      .content-box-content-main{padding:10px 0;}
      .main-topic-link{ float:none;display:block;margin:0 auto;}
-     h1.top-header{font-size:4.2em;margin-bottom:0;}
-     h3.top-header{font-size:2.2em}
+     h1.top-header{font-size:4.8em;margin-bottom:0;}
+     h3.top-header{font-size:2.4em}
     .text-lg{font-size:1.2em;}
     .body-theme{
         background-size:220px auto;
@@ -494,8 +494,8 @@ ul.list-sections > li > a{
     }
  }
 
-@media (max-width: 467px) {
-     h1.top-header{font-size:3.2em}
+@media (max-width: 367px) {
+     h1.top-header{font-size:3.4em}
      h3.top-header{font-size:1.7em}
 }
 
