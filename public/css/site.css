@@ -5,7 +5,7 @@
 body {
      margin:0;
      padding:60px 0 0 0;
-     font: 16px  FbMiryamNew-Regular ,open_sans,arial,sans-serif;
+     font: 16px  FbMiryamNew-Regular ,Arial, Helvetica, sans-serif;
      color: #444;
      line-height:1.5em;
 }
@@ -78,7 +78,7 @@ h2{font-size:3.2em}
 h3.top-header{font-size:3.2em;margin-bottom:20px;}
 .top-header{ margin-top:0; padding-top:0;}
 .text-accent-main{ color:#5E2685;}
-.text-accent-bold {font-family:FbMiryamNew-Bold}
+.text-accent-bold {font-family:FbMiryamNew-Bold, Arial, Helvetica, sans-serif;}
 .text-accent-green{color:#66AC3C;}
 .text-accent-red{color:red;}
 .text-justify{text-align:justify;}
@@ -88,7 +88,7 @@ h3.top-header{font-size:3.2em;margin-bottom:20px;}
 p + p {  margin-top:10px;}
 ul > li > p + p {  margin-top:0;}
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: FbMiryamNew-Regular;
+    font-family: FbMiryamNew-Regular, Arial, Helvetica, sans-serif;
 }
 
 /* ------------------------------------------------------ ALERTS ------------------------------------------------------------------*/
