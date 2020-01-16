@@ -5,6 +5,10 @@ var scrollTop = 350;
 function loadPage() {
     var page = location.hash || 'main';
     document.body.className = '';
+
+    $('.nav-links-list > li > a.active').removeClass('active');
+    $('.nav-links-list > li > a[href$="' + decodeURI(page) + '"]').addClass('active');
+
     $('#page').load('pages/' + page.replace('#', '') + '.html', function () {
         var theme = $('.topic').data('theme');
         if (theme) 
