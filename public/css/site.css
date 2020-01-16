@@ -198,6 +198,12 @@ header{
 
 .nav-links-list > li:not(:first-child) > a:hover{ background:#FAFAFA;}
 
+.nav-links-list > li > a.active,.nav-links-list > li > a.active:hover, 
+nav-links-list > li > a.active:active,.nav-links-list > li > a.active:visited,.nav-links-list > li > a.active:focus{
+   color:#fff;
+   cursor:default;
+   background:#5E2685;
+}
 
 /* -------------------------------------------------------- NAVIGATION MENU DRAWER TOGGLE --------------------------------------------------------------*/
 
