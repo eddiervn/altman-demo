@@ -531,6 +531,11 @@ ul.list-sections > li > a{
         max-height:unset;
         width:100%;
     }
+
+    .table-dictionary > tbody > tr > td:first-child{
+        white-space:normal;
+        width:100px;
+    }
  }
 
 @media (max-width: 367px) {
